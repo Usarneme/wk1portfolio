@@ -10,38 +10,51 @@
   </head>
   <body>
     <section class="main flex">
-      <!-- <nav class="flex inline">
-        <a href="#">Home</a>
-      </nav> -->
 
-      <div class="flex projects">
-        <a class="card one" href="http://usarneme-react-quote.surge.sh/">
-            <div class="inner">
-              Design Inspirational Quotes
-            </div>
-          </a>
-          <a class="card two" href="usarneme-flashcards.surge.sh">
-            <div class="inner">
-              Flashcards For To Learn Stuff       
-            </div>
-          </a>
-          <a class="card three" href="http://modern-grids.surge.sh/">
-            <div class="inner">
-              Playing With Different Layout Models (Grid, Flexbox, Bootstrap)       
-            </div>
-          </a>
-          <a class="card four" href="wise-noise.surge.sh">
-            <div class="inner">
-              Voice To Speech Tool (Warning: Uses a non-standard spec; may work only on Chrome if at all)        
-            </div>
-          </a>
-          <a class="card five" href="js-drumkit.surge.sh">
-            <div class="inner">
-              In-Browser Drum Kit         
-            </div>
-          </a>
+      <nav class="flex center">
+        <ul class="flex inline">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>            
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="about" class="about">
+        <div class="inner-about">
+          <div class="flex center">
+            <h1>Hi, I'm Tom!</h1>
+            <h3>And These Are My Projects</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" class="flex projects">
+        <div class="project one">    
+          <div class="flex card inner">
+            <h3>Flashcards For To Learn Stuff</h3>
+            <p>This Flashcards project utilizes, HTML, CSS, ES6/JavaScript and React to create an application capable of creating, displaying, using, and quizzing on flashcard sets. It comes pre-loaded with a few decks for demo purposes but feel free to create more decks! Easily review card sets and try one of the three different quiz varieties: multiple choice answer, write-in answer, and self-survey!</p>
+            <a class="button" target="_blank" href="http://usarneme-flashcards.surge.sh">View Project</a>
+            <a class="button" href="https://github.com/usarneme/flashcards">View GitHub Repository</a>
+          </div>
         </div>
 
+        <div class="project two">       
+          <div class="flex card inner">
+            <h3>In-Browser Drum Kit</h3>
+            <p>This simple project uses HTML, CSS and JavaScript to create a simple drum kit. You can press the buttons on your keyboard or use a touch screen/mouse to click on the buttons to play sounds. Bam! You're a producer now :)</p>
+            <a class="button" target="_blank" href="http://js-drumkit.surge.sh">View Project</a>
+            <a class="button" href="https://github.com/usarneme/jsdrumkit">View GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="flex footer">&copy; 2021 Usarneme/Tom</footer>
     </section>
   </body>
 </html>
