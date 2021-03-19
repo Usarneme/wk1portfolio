@@ -8,6 +8,7 @@
   --blueGreen: #0DAE7F;
   --mainGreen: #01e4a4;
   --secondGreen: #509D34;
+  --uglyGreen: #91b70b;
   --accentYellow: #F7F30F;
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +22,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -189,6 +194,10 @@ nav > ul > li {
   background: var(--secondGreen);
 }
 
+.four {
+  background: var(--uglyGreen);
+}
+
 footer.footer {
   text-align: end;
   min-height: 44px;
@@ -198,4 +207,12 @@ footer.footer {
   background: var(--mainGreen);
   color: var(--textDark);
   justify-content: center;
+}
+
+.box {
+  border: 2px solid lime;
+}
+
+.float.left {
+  float: left;
 }

@@ -21,10 +21,9 @@
 
 1. HTML5
 2. CSS3
-3. Eric Meyer's [CSS Reset](https://meyerweb.com/eric/tools/css/reset/). File provided by CDN [JSDeliver](https://www.jsdelivr.com/package/npm/reset-css) [![](https://data.jsdelivr.com/v1/package/npm/reset-css/badge)](https://www.jsdelivr.com/package/npm/reset-css)
-4. VSCode
-5. Git CLI
-6. GitHub
+3. VSCode
+4. Git CLI
+5. GitHub  
 ---
 
 ### Objectives: 
