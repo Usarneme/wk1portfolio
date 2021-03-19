@@ -7,8 +7,8 @@
   --bluish: #2999B7;
   --blueGreen: #0DAE7F;
   --mainGreen: #01e4a4;
-  --secondGreen: #509D34;
-  --uglyGreen: #91b70b;
+  --darkerBlue: #2A83A6;
+  --lightGreen: #0bb73e;
   --accentYellow: #F7F30F;
   box-sizing: border-box;
   margin: 0;
@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  border-bottom: 2px solid lime;
+  border-bottom: 3px solid lime;
   margin-bottom: 22px;
   padding-bottom: 0;
 }
@@ -69,8 +69,9 @@ body, section {
 section {
   margin: 15px;
   padding: 15px;
-  border: 2px solid lime;
+  /* border: 2px solid lime; */
   background: rgba(255,255,255,0.5);
+  height: 90vh;
 }
 
 div.main {
@@ -127,7 +128,7 @@ nav > ul > li {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   position: relative;
 }
 
@@ -155,7 +156,6 @@ nav > ul > li {
   margin: 0 auto;
   padding: 1rem;
   height: 100%;
-  min-height: calc(100vh / 5);
   color: var(--accentYellow);
 }
 
@@ -192,11 +192,11 @@ nav > ul > li {
 }
 
 .three {
-  background: var(--secondGreen);
+  background: var(--darkerBlue);
 }
 
 .four {
-  background: var(--uglyGreen);
+  background: var(--lightGreen);
 }
 
 footer.footer {
