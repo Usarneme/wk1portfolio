@@ -5,9 +5,9 @@
 
 ### Installation
 1. `git clone https://github.com/Usarneme/wk1portfolio`
-2. `cd wk1portfolio`
+2. `cd wk1portfolio/`
 3. Start a server your preferred way eg: `python2 -m SimpleHTTPServer 8080`
-4. Open browser to localhost:8080 to view contents.
+4. Open browser to localhost:8080 to view contents
 ---
 
 ### Contents
@@ -21,7 +21,7 @@
 
 1. HTML5
 2. CSS3
-3. Eric Meyer's [CSS Reset](https://meyerweb.com/eric/tools/css/reset/). CDN of file provided by [JSDeliver](https://www.jsdelivr.com/package/npm/reset-css) [![](https://data.jsdelivr.com/v1/package/npm/reset-css/badge)](https://www.jsdelivr.com/package/npm/reset-css)
+3. Eric Meyer's [CSS Reset](https://meyerweb.com/eric/tools/css/reset/). File provided by CDN [JSDeliver](https://www.jsdelivr.com/package/npm/reset-css) [![](https://data.jsdelivr.com/v1/package/npm/reset-css/badge)](https://www.jsdelivr.com/package/npm/reset-css)
 4. VSCode
 5. Git CLI
 6. GitHub
@@ -61,5 +61,5 @@ Your instructor will review your code for the following objectives:
 <br />
 
 <p align="center">
-  Made with ❤️ in Portland, Oregon. 
+  <small>Made with ❤️ in Portland, Oregon. </small>
 </p>

@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  --background: #787878;
+  --cardBg: #bcbcbc;
+  --textLight: #dedede;
+  --textDark: #242424;
+}
+
+body, section {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+section.main {
+  background: var(--background);
+  min-height: 100vh;
+  color: var(--textLight);
+}
+
+.flex {
+  display: flex;
+}
