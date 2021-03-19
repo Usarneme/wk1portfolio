@@ -24,15 +24,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-ul {
-  list-style: none;
-  padding: 10px;
-}
-
 h1, h2, h3, h4, h5 {
   font-weight: bolder;
   font-size: 1.5rem;
-  padding: 0.85rem;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -48,7 +44,20 @@ h2 {
 }
 
 h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
   font-size: 2rem;
+}
+
+h3:after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  right: 30%;
+  left: 30%;
+  height: 3px;
+  background: var(--accentYellow);
 }
 
 a {
@@ -58,6 +67,7 @@ a {
 
 p {
   padding: 11px;
+  margin: 0;
 }
 
 body, section {
@@ -68,10 +78,10 @@ body, section {
 
 section {
   margin: 15px;
+  margin-top: 0;
   padding: 15px;
   /* border: 2px solid lime; */
-  background: rgba(255,255,255,0.5);
-  height: 90vh;
+  background: rgba(255,255,255,0.6);
 }
 
 div.main {
@@ -86,17 +96,31 @@ div.main {
 /* Photo by <a href="https://unsplash.com/@franco_mar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Franco Mariuzza</a> on <a href="/s/photos/bamboo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   max-width: 100vw;
-  background: rgba(255,255,255,0.75);
-  min-height: 22px;
-  padding: 10px;
+  background: rgba(255,255,255,0.6);
   color: var(--textDark);
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav > ul > li {
   margin: 0 10px;
   text-transform: uppercase;
   border-bottom: 2px solid lime;
+}
+
+ol, ol > li {
+  text-align: left;
 }
 
 .flex {
@@ -128,7 +152,7 @@ nav > ul > li {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  /* min-height: 80vh; */
+  min-height: 80vh;
   position: relative;
 }
 
@@ -154,9 +178,17 @@ nav > ul > li {
   position: relative;
   text-align: center;
   margin: 0 auto;
+  max-width: 866px;
   padding: 1rem;
   height: 100%;
   color: var(--accentYellow);
+}
+
+.inner-card {
+  padding-bottom: 20px;
+  margin: 0 10px 10px 10px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .button {
@@ -168,6 +200,7 @@ nav > ul > li {
   color: var(--textDark);
   font-weight: bold;
   width: 220px;
+  box-shadow: 0px 0px 10px orangered;
 }
 
 .button:hover {
@@ -200,20 +233,30 @@ nav > ul > li {
 }
 
 footer.footer {
-  text-align: end;
-  min-height: 44px;
+  min-height: 42px;
   margin-top: 120px;
   margin-bottom: 0;
-  padding: 12px;
+  padding: 11px;
   background: var(--mainGreen);
   color: var(--textDark);
-  justify-content: center;
+  align-items: center;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
 }
 
 .box {
-  border: 2px solid lime;
+  border: 2px groove lime;
+  margin: 12px;
+  padding: 2px;
 }
 
 .float.left {
   float: left;
+}
+
+.float.right {
+  float: right;
 }
