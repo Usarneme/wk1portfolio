@@ -1,18 +1,47 @@
+/* Color Palette */
+:root {
+  --background: #787878;
+  --cardBg: #bcbcbc;
+  --textLight: #dedede;
+  --textDark: #242424;
+  --bluish: #55D3F5;
+  --blueGreen: #0DD49A;
+  --mainGreen: #1AEB40;
+  --secondGreen: #60D40D;
+  --accentYellow: #F7F30F; 
+}
+
 html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 10px;
-  --background: #787878;
-  --cardBg: #bcbcbc;
-  --textLight: #dedede;
-  --textDark: #242424;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body, section {
   margin: 0;
   padding: 0;
-  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5 {
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  padding: 0.85rem;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 section.main {
@@ -23,4 +52,40 @@ section.main {
 
 .flex {
   display: flex;
+  flex-direction: column;
+}
+
+.inline {
+  flex-direction: row;
+}
+
+.card {
+  max-width: 800px;
+  position: relative;
+  margin: 0.15rem auto 0rem;
+  background: var(--cardBg);
+}
+
+.one,.two,.three,.four,.five {
+  min-height: calc(100vh / 5);
+}
+
+.one {
+  background: var(--bluish);
+}
+
+.two {
+  background: var(--blueGreen);
+}
+
+.three {
+  background: var(--mainGreen);
+}
+
+.four {
+  background: var(--secondGreen);
+}
+
+.five {
+  background: var(--accentYellow);
 }
