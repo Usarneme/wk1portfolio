@@ -9,9 +9,6 @@
   --mainGreen: #1AEB40;
   --secondGreen: #60D40D;
   --accentYellow: #F7F30F; 
-}
-
-html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -60,10 +57,9 @@ section.main {
 }
 
 .card {
-  max-width: 800px;
   position: relative;
-  margin: 0.15rem auto 0rem;
   background: var(--cardBg);
+  opacity: 0.5;
 }
 
 .one,.two,.three,.four,.five {
