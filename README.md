@@ -1,7 +1,7 @@
 # wk1portfolio
 ## A portfolio page for Usarneme/Tom using only HTML and CSS!
 ---
-Visit the project at [usarneme.github.io](https://usarneme.github.io)!
+Visit the project at [usarneme.github.io/wk1portfolio](https://usarneme.github.io/wk1portfolio)!
 ---
 ### Contents
 1. Splash/Welcome Section
